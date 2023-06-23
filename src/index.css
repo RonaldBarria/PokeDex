@@ -1,0 +1,30 @@
+body{
+  background: #1a112c !important;
+}
+
+.alert-bad {
+  background-color: #242325 !important;
+  border-color: #535353 !important;
+  color: #b4b4b4 !important;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: #444ff5;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(360deg);
+  }
+}
